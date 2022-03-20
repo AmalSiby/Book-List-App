@@ -8,4 +8,5 @@
 Remove a Book </br>
 Check vadilation </br>*
 
-**Added book will be stored in local storage.**
+**Added book will be stored in local storage.</br>
+Removed book will be remove from the local storage.**
