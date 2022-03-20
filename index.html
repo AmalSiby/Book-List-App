@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>MyBookList App</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+        <i class="fas fa-book-open text-success"></i>
+        My <span class="text-success">Book </span>List</h1>
+
+        <form id="book-form">
+            <div class="form-group mt-4">
+                <label for="title">Title</label>
+                <input class="form-control" id="title" 
+                type="text" >
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="author">Author</label>
+                <input class="form-control" id="author" 
+                type="text" >
+            </div>
+
+            <div class="form-group mt-4">
+                <label for="isbn">ISBN#</label>
+                <input class="form-control" id="isbn" 
+                type="text" >
+            </div>
+
+            <input type="submit" value="Add Book"
+            class="btn btn-outline-success mt-3">
+        </form>
+
+        <table class="table table-hover mt-4">
+            <thead>
+              <tr>
+                <th class="text-primary">Title</th>
+                <th class="text-primary">Author</th>
+                <th class="text-primary">ISBN#</th>
+                <th class="text-primary"></th>
+              </tr>
+            </thead>
+            <tbody id="book-list">
+            </tbody>
+          </table>
+
+    </div>
+    <script src="https://kit.fontawesome.com/4697a91fb8.js" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
