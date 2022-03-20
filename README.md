@@ -1,11 +1,11 @@
 # Book-List-App
 
 ## Tools used
-HTML, Bootstrap, Vanilla Javascipt
+*HTML, Bootstrap, Vanilla Javascipt*
 
 ## Functionalities
-Add a Book </br>
+*Add a Book </br>
 Remove a Book </br>
-Check vadilation </br>
+Check vadilation </br>*
 
-Adding a book will be stored in local storage.
+**Added book will be stored in local storage.**
